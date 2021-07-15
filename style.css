@@ -11,7 +11,7 @@ span{
     color: darkorange;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 80px;
 }
@@ -29,7 +29,23 @@ section{
     border-radius: 10px;
     font-weight:bolder;
 }
-
+.experience-item{
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left: 5%;
+    border-radius: 15px;
+    border-left: 10px solid rgb(119, 25, 122);
+    box-shadow: 4px 4px 4px 10px gray;
+}
+#baby-web{
+    border-left:7px solid cyan ;
+    border-image:linear-gradient(blue,cyan)
+    border-image-sclice:4px
+}
+footer p {
+    text-align: center;
+}
 
 
 
